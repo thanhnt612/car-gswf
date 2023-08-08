@@ -1,0 +1,2932 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Title</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+    <!-- <link rel="stylesheet" type="text/css" href="css/style.css" /> -->
+    <link rel="stylesheet" href="owlcarousel/owl.carousel.min.css" />
+    <link rel="stylesheet" href="owlcarousel/owl.theme.default.min.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
+      crossorigin="anonymous"
+    />
+    <link href="https://fonts.cdnfonts.com/css/scene-pro" rel="stylesheet" />
+
+    <!-- Bootstrap CSS v5.2.1 -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css"
+    />
+
+    <style type="text/css">
+      /*--------------font-family and font siza ------------------*/
+      /*----400,500,600,700----*/
+      .font_scenepro_500 {
+        font-family: SceneProBold_500;
+      }
+
+      .font_scenepro_700 {
+        font-family: SceneProBold_700;
+      }
+
+      .font_scenepro_900 {
+        font-family: SceneProBold_900;
+        font-size: 15px;
+      }
+
+      /*--------------padding anh margin ------------------*/
+      .p-6 {
+        padding-left: 8vw !important;
+        padding-right: 8vw !important;
+      }
+
+      /*-------------- thẻ menu ----------------------------*/
+      .cursor {
+        cursor: pointer;
+      }
+
+      .nav-pills .nav-link.active,
+      .nav-pills .show > .nav-link {
+        background-color: rgb(var(--bs-danger-rgb));
+      }
+
+      body {
+      }
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        font-family: "Scene Pro", sans-serif;
+      }
+
+      .fw-900 {
+        font-weight: 900;
+      }
+      .fw-400 {
+        font-weight: 400;
+      }
+      .text-15 {
+        font-size: 15px;
+      }
+      .header {
+        position: absolute;
+        width: 100%;
+        z-index: 10;
+      }
+      /****************************************My Cutomize****************************************/
+      .fs-18 {
+        font-size: 18px;
+      }
+      .fs-28 {
+        font-size: 28px;
+      }
+      .fs-135 {
+        font-size: 135px;
+      }
+      .fs-26 {
+        font-size: 26px;
+      }
+
+      .fs-36-development {
+        font-size: 36px;
+      }
+      .fs-19-development {
+        font-size: 19px;
+      }
+      .fs-20-development {
+        font-size: 20px;
+      }
+      .banner {
+        position: relative;
+      }
+      .banner video,
+      .shop video {
+        object-fit: cover;
+      }
+      /*Di động*/
+      @media (min-width: 390px) {
+        .header .logo img {
+          width: 94px;
+        }
+
+        /****************************************Banner****************************************/
+        .banner video {
+          height: 633px;
+        }
+
+        /***************************************National*****************************************/
+        .national .flag_national .item .detail {
+          height: 75px;
+        }
+        .national .flag_national .item .detail a p {
+          font-size: 18px;
+        }
+        .national .flag_national .item .detail span {
+          font-size: 12px;
+        }
+        .fs-20 {
+          font-size: 20px;
+        }
+        .fs-96 {
+          font-size: 23px;
+        }
+        .fs-39 {
+          font-size: 24px;
+        }
+        .fs-49 {
+          font-size: 33px;
+        }
+        .fs-28 {
+          font-size: 16px;
+        }
+        .fs-135 {
+          font-size: 49px;
+        }
+
+        /****************************************Linear****************************************/
+        .linear_color {
+          background-image: linear-gradient(98deg, #0074e8 50%, #000000 50%);
+          min-height: 211px;
+        }
+
+        /****************************************National****************************************/
+        .national {
+          background-color: #002041;
+        }
+        .national .flag_national .item .thumbnail img {
+          border-radius: 30px 30px 0 0;
+        }
+        .national .flag_national .item .detail {
+          height: 50px;
+          font-style: italic;
+          border-radius: 0 0 30px 30px;
+        }
+        .national .flag_national .item .detail a p {
+          margin: 0;
+        }
+        .national .flag_national .item .detail span {
+          font-size: 14px;
+        }
+
+        /****************************************Service****************************************/
+        .service {
+          background-image: url(https://gswf.com/wp-content/uploads/2021/06/product-quality-background.jpg);
+          background-repeat: no-repeat;
+          background-size: cover;
+          background-position: bottom;
+          min-height: 1000px;
+        }
+        .service .list .item p {
+          font-size: 16px;
+        }
+
+        /****************************************National****************************************/
+        .national .flag_national .item .thumbnail img {
+          height: 89px;
+        }
+        .p-6 {
+          padding-left: 3vw !important;
+          padding-right: 3vw !important;
+        }
+
+        /****************************************Establish****************************************/
+        .establish .item .thumbnail_top img {
+          min-height: 180px !important;
+        }
+        .establish .item .thumbnail_center img {
+          min-height: 149px !important;
+        }
+        .establish .item .thumbnail_bottom img {
+          min-height: 125px !important;
+        }
+        .establish .item .thumbnail_top {
+          margin: 0 15%;
+          position: relative;
+        }
+        .establish .item .thumbnail_center {
+          margin: -15% 30% 0% 0%;
+          position: relative;
+        }
+        .establish .item .thumbnail_bottom {
+          margin: -15% 5% 0% 50%;
+          position: relative;
+          z-index: -1;
+        }
+        .establish .item .thumbnail_top img,
+        .establish .item .thumbnail_center img,
+        .establish .item .thumbnail_bottom img {
+          border-radius: 20px;
+        }
+
+        /****************************************Development****************************************/
+        .development .item_left .thumbnail {
+          background-image: url(https://gswf.com/wp-content/uploads/2021/05/Section-2-back.jpg);
+          background-size: cover;
+          background-repeat: no-repeat;
+          background-position: center;
+          min-height: 199px;
+          border-radius: 0 20px 20px 0;
+        }
+        .development .item_right .topic {
+          border-radius: 20px;
+          padding: 24px;
+        }
+        .development .quality h3 {
+          font-size: 21px;
+        }
+        .development .quality img {
+          height: 85px;
+        }
+
+        /****************************************Option****************************************/
+        .option {
+          background-image: url(https://gswf.com/wp-content/uploads/2021/05/Prodcut-Splash-Block.jpg);
+          background-size: contain;
+          background-repeat: no-repeat;
+          background-position: bottom;
+          min-height: 760px;
+          background-color: black;
+        }
+        .option .main .select p {
+          font-size: 19px;
+        }
+        .option .main .select ul li a {
+          font-size: 20px;
+        }
+        .option .title h2 {
+          font-size: 43px;
+        }
+        .option .title h3 {
+          font-size: 24px;
+        }
+
+        /****************************************Defender****************************************/
+        .defender {
+          position: relative;
+          background-image: url(https://gswf.com/wp-content/uploads/2021/06/PPF-install.jpg);
+          background-position: top center;
+          background-repeat: no-repeat;
+          background-size: cover;
+          min-height: 1200px;
+          background-attachment: fixed;
+        }
+        .overlay {
+          content: "";
+          position: absolute;
+          background-image: url(https://gswf.com/wp-content/uploads/2021/06/DEFENDER-Background-Tall.svg);
+          width: 100%;
+          height: 100%;
+          background-repeat: no-repeat;
+          background-size: cover;
+        }
+        .defender .main {
+          position: relative;
+          top: 380px;
+          height: 100%;
+        }
+        .defender .list_defender h3 {
+          font-size: 27px;
+        }
+        .defender .list_defender .item ul li span {
+          font-size: 15px;
+        }
+
+        /****************************************Shop****************************************/
+        .shop .main {
+          top: 25% !important;
+        }
+        .shop .main h3 {
+          font-size: 33px;
+        }
+
+        /****************************************Color****************************************/
+        .color .pick h3 {
+          font-size: 37px;
+        }
+        .color .pick h4 {
+          font-size: 24px;
+          color: #4c5a42;
+        }
+        .pick .thumbnail img {
+          border-radius: 20px;
+        }
+        .color .preview .item_left .thumbnail img {
+          height: 93px;
+        }
+        .color .preview .item_right video {
+          object-fit: cover;
+          height: 331px;
+        }
+        .color .preview {
+          padding-top: 100px;
+          padding-bottom: 100px;
+        }
+
+        /****************************************Protect****************************************/
+        .protect {
+          background-image: url(https://gswf.com/wp-content/uploads/2021/06/white-bently-rear-WEB-e1624016302428.jpg);
+          background-size: cover;
+          background-repeat: no-repeat;
+          background-position: center;
+          min-height: 625px;
+          position: relative;
+        }
+        .protect .overlay_protect {
+          content: "";
+          position: absolute;
+          top: 0;
+          left: 0;
+          background-color: rgba(0, 0, 0, 0.9);
+          opacity: 1;
+          width: 100%;
+          height: 100%;
+        }
+
+        /****************************************Offer****************************************/
+        .offer {
+          background-image: url(https://gswf.com/wp-content/uploads/2021/06/SPF-background-YELLOW-LAMBO-e1624056745445.jpg);
+          background-size: cover;
+          background-repeat: no-repeat;
+          background-position: center;
+          min-height: 443px;
+        }
+        .offer .main .item img {
+          height: 124px;
+        }
+        .offer .item h3 {
+          font-size: 27px;
+        }
+        .offer .item p {
+          font-size: 20px;
+        }
+
+        /****************************************Partner****************************************/
+        .partner {
+          padding: 100px 0;
+          background-image: url(https://gswf.com/wp-content/uploads/2021/05/social-grid-section2.jpg);
+          background-position: bottom right;
+          background-repeat: no-repeat;
+          background-size: 325px;
+          min-height: 300px;
+        }
+        .partner .main .info h2 {
+          font-size: 33px;
+        }
+        .partner .main .info ul li {
+          font-size: 20px;
+        }
+        .partner .main .info .work li {
+          font-size: 15px;
+          white-space: nowrap;
+        }
+
+        /****************************************Certificate****************************************/
+        .certificate {
+          background-image: url(https://gswf.com/wp-content/uploads/2021/06/BENTLY-FRONT-BLUE.jpg);
+          background-position: -100px center;
+          background-size: auto;
+          min-height: 716px;
+        }
+        .certificate .overlay_certificate {
+          content: "";
+          position: absolute;
+          top: 0;
+          left: 0;
+          background-color: rgba(0, 0, 0, 0.7);
+          opacity: 1;
+          width: 100%;
+          height: 100%;
+        }
+        .certificate .rank .silver img,
+        .certificate .rank .bronze img {
+          height: 142px;
+        }
+        .certificate .rank .gold img {
+          height: 166px;
+        }
+        .certificate .contact h3 {
+          font-size: 41px;
+        }
+        .certificate .contact p {
+          font-size: 20px;
+        }
+
+        /****************************************Tip Video****************************************/
+        .tip .main h2 {
+          font-size: 27px;
+        }
+
+        .main-video video {
+          width: 370px;
+          height: 208px;
+          object-fit: cover;
+        }
+
+        .main-video .main-video {
+          margin-bottom: 7px;
+          border-radius: 5px;
+          width: 100%;
+        }
+        .main-video .main-vid-title {
+          font-size: 20px;
+          color: #444;
+        }
+        .video-list {
+          flex: 1 1 434px;
+          overflow-y: scroll;
+          background-color: #fff;
+          padding: 15px;
+          height: 400px;
+        }
+        .video-list::-webkit-scrollbar {
+          width: 10px;
+        }
+        .video-list::-webkit-scrollbar-track {
+          background-color: #fff;
+          border-radius: 5px;
+        }
+        .video-list::-webkit-scrollbar-thumb {
+          background-color: #444;
+          border-radius: 5px;
+        }
+        .video-list .list {
+          display: flex;
+          align-items: center;
+          gap: 15px;
+          padding: 10px;
+          background-color: #eee;
+          cursor: pointer;
+          border-radius: 5px;
+          margin-bottom: 10px;
+        }
+        .video-list .list:last-child {
+          margin-bottom: 0;
+        }
+        .video-list .list.active {
+          background-color: #444;
+        }
+        .video-list .list.active .list-title {
+          color: #fff;
+        }
+        .video-list .list .list-video {
+          width: 100px;
+          border-radius: 5px;
+        }
+        .video-list .list .list-title {
+          font-size: 12px;
+          color: #444;
+        }
+
+        /****************************************Picture****************************************/
+        .picture .title a {
+          font-size: 34px;
+        }
+        .picture .item .pic img {
+          height: 370px;
+        }
+      }
+      /*Tablet*/
+      @media (min-width: 768px) {
+        .header .logo img {
+          width: 181px;
+        }
+
+        /****************************************Banner****************************************/
+        .banner video {
+          height: 604px;
+        }
+
+        /****************************************National****************************************/
+        .national .flag_national .item .thumbnail img {
+          height: 200px;
+        }
+        .national .flag_national .item .detail span {
+          font-size: 14px;
+        }
+        .fs-96 {
+          font-size: 38px;
+        }
+        .fs-39 {
+          font-size: 39px;
+        }
+        .fs-49 {
+          font-size: 49px;
+        }
+        .fs-28 {
+          font-size: 28px;
+        }
+        .fs-135 {
+          font-size: 135px;
+        }
+
+        /****************************************Linear Color****************************************/
+        .linear_color {
+          min-height: 420px;
+        }
+        .p-7 {
+          padding-left: 2vw !important;
+          padding-right: 2vw !important;
+        }
+        .fs-36 {
+          font-size: 28px;
+        }
+
+        /****************************************Establish****************************************/
+        .establish .item .thumbnail_top img {
+          min-height: 192px !important;
+        }
+        .establish .item .thumbnail_center img {
+          min-height: 143px !important;
+        }
+        .establish .item .thumbnail_bottom img {
+          min-height: 123px !important;
+        }
+        .establish .main {
+          padding-top: 90px;
+        }
+
+        /****************************************Development****************************************/
+        .development .item_left .thumbnail {
+          background-position: left center;
+          min-height: 1406px;
+        }
+        .development .item_right {
+          position: relative;
+          left: -10%;
+        }
+        .development .item_right .topic {
+          padding: 17px;
+        }
+
+        .development .quality h3 {
+          font-size: 49px;
+        }
+        .development .quality img {
+          height: 91px;
+        }
+
+        /****************************************Option****************************************/
+        .option {
+          background-position: bottom;
+          min-height: 1300px;
+        }
+
+        /****************************************Defender****************************************/
+        .defender .list_defender h3 {
+          font-size: 41px;
+        }
+        .defender .list_defender .item ul li span {
+          font-size: 20px;
+        }
+
+        /****************************************Shop****************************************/
+        .shop .main h3 {
+          font-size: 49px;
+        }
+
+        /****************************************Color****************************************/
+        .color .title .title_right h3 {
+          font-size: 42px;
+        }
+        .color .title .title_right p {
+          font-size: 20px;
+        }
+        .color .title .title_right ul li {
+          font-size: 16px;
+        }
+        .color .preview .item_left .thumbnail img {
+          height: 107px;
+        }
+        .color .preview .item_right video {
+          height: 350px;
+        }
+
+        /****************************************Color****************************************/
+        .offer {
+          min-height: 491px;
+        }
+        .offer .main .item img {
+          height: 135px;
+        }
+        .offer .item h3 {
+          font-size: 29px;
+        }
+
+        /****************************************Partner****************************************/
+        .partner {
+          background-size: 500px;
+        }
+        .partner .main .info h2 {
+          font-size: 49px;
+        }
+        .partner .main .info .work li {
+          white-space: inherit;
+          text-align: center;
+        }
+
+        /****************************************Certificate****************************************/
+        .certificate {
+          background-position: center center;
+          min-height: 888px;
+        }
+        .certificate .rank .silver img,
+        .certificate .rank .bronze img {
+          height: 192px;
+        }
+        .certificate .rank .gold img {
+          height: 241px;
+        }
+        .certificate .contact h3 {
+          font-size: 65px;
+        }
+
+        /****************************************Tip Video****************************************/
+        .tip .main h2 {
+          font-size: 54px;
+        }
+        .main-video video {
+          width: 500px;
+          height: 400px;
+        }
+        .video-list {
+          flex: 1 1 434px;
+          height: 400px;
+        }
+
+        /****************************************Picture****************************************/
+        .picture .title a {
+          font-size: 34px;
+        }
+        .picture .item .pic img {
+          height: 368px;
+        }
+      }
+      /*PC*/
+      @media (min-width: 1400px) {
+        .banner video {
+          height: 677px;
+        }
+        .linear_color {
+          min-height: 400px;
+        }
+        /****************************************National****************************************/
+        .national .flag_national .item .thumbnail img {
+          height: 165px;
+        }
+        .national .flag_national .item .detail a p {
+          font-size: 26px;
+        }
+        .fs-96 {
+          font-size: 96px;
+        }
+        .p-7 {
+          padding-left: 15vw !important;
+          padding-right: 15vw !important;
+        }
+        .fs-36 {
+          font-size: 36px;
+        }
+
+        /****************************************Establish****************************************/
+        .establish .item .thumbnail_top img {
+          min-height: 445px !important;
+        }
+        .establish .item .thumbnail_center img {
+          min-height: 332px !important;
+        }
+        .establish .item .thumbnail_bottom img {
+          min-height: 286px !important;
+        }
+
+        /****************************************Development****************************************/
+        .development .item_left .thumbnail {
+          background-position: 72% center;
+          min-height: 1358px;
+        }
+        .development .item_right .topic {
+          padding: 34px;
+        }
+        .development .item_right .topic .fs-1 {
+          font-size: 4.5rem !important;
+        }
+        .development .quality img {
+          height: 121px;
+        }
+
+        /****************************************Option****************************************/
+        .option {
+          background-position: center;
+          min-height: 1100px;
+        }
+        .option .main .select p {
+          font-size: 36px;
+        }
+        .option .main .select ul li a {
+          font-size: 20px;
+        }
+        .option .title h2 {
+          font-size: 64px;
+        }
+        .option .title h3 {
+          font-size: 22px;
+        }
+
+        /****************************************Defender****************************************/
+        .defender .list_defender h3 {
+          font-size: 41px;
+        }
+
+        /****************************************Shop****************************************/
+        .shop .main h3 {
+          font-size: 49px;
+        }
+        .shop .main {
+          top: 0 !important;
+        }
+        .shop .main ul li span {
+          font-size: 20px;
+        }
+        .shop video {
+          height: 356px;
+        }
+
+        /****************************************Color****************************************/
+        .color .preview {
+          padding-top: 500px;
+          padding-bottom: 100px;
+        }
+
+        .color .preview .item_left .thumbnail img {
+          height: 236px;
+        }
+        .color .preview .item_right video {
+          height: 837px;
+        }
+
+        /****************************************Protect****************************************/
+        .protect .item .percent h3 {
+          font-size: 55px;
+        }
+
+        /****************************************Offer****************************************/
+        .offer {
+          min-height: 782px;
+        }
+        .offer .main .item img {
+          height: 313px;
+        }
+        .offer .item h3 {
+          font-size: 72px;
+        }
+
+        /****************************************Partner****************************************/
+        .partner {
+          background-size: 62% auto;
+          min-height: 566px;
+        }
+        .partner .main .info h2 {
+          font-size: 49px;
+        }
+        .partner .main .info ul li {
+          font-size: 20px;
+        }
+
+        /****************************************Certificate****************************************/
+        .certificate {
+          min-height: 1000px;
+        }
+        .certificate .rank .silver img,
+        .certificate .rank .bronze img {
+          height: 253px;
+        }
+        .certificate .rank .gold img {
+          height: 316px;
+        }
+
+        /****************************************Tip Video****************************************/
+        .tip .main h2 {
+          font-size: 135px;
+        }
+        .main-video video {
+          height: 485px;
+        }
+        .video-list {
+          flex: 1 1 350px;
+          height: 485px;
+        }
+
+        /****************************************Tip Video****************************************/
+        .picture .title a {
+          font-size: 45px;
+        }
+        .picture .item .pic {
+          width: 369px;
+        }
+        .picture .item .pic img {
+          height: 367px;
+        }
+      }
+    </style>
+  </head>
+
+  <body>
+    <header>
+      <div class="row header">
+        <div class="fixme menu navbar navbar-expand-lg py-3" id="nav-box">
+          <a href="" class="navbar-brand logo">
+            <img
+              src="https://gswf.com/wp-content/uploads/2020/02/GSWF-WHITE-Logo.svg"
+              width="181px"
+              height="45px"
+              alt=""
+            />
+          </a>
+
+          <div class="flag d-flex align-items-center order-lg-2">
+            <li class="nav-item me-3 bg-danger rounded-pill d-block d-lg-none">
+              <a
+                class="nav-link fst-italic fw-900 px-4 text-15 text-white"
+                href="#"
+                >SHOP ONLINE</a
+              >
+            </li>
+            <a href="" class="navbar-branch text-decoration-none me-2">
+              <img
+                src="https://gswf.com/wp-content/plugins/geotargetingwp/addons/geo-flags/assets/flags/4x3/vn.svg"
+                width="33px"
+                height="33px"
+                alt=""
+              />
+            </a>
+            <button
+              class="d-md-block d-lg-none btn border-0 fs-2"
+              type="button"
+              data-bs-toggle="offcanvas"
+              data-bs-target="#offcanvasNavbar"
+            >
+              <i class="text-white bi bi-list"></i>
+            </button>
+          </div>
+
+          <div
+            class="collapse-custom navbar-collapse justify-content-end d-none d-lg-block"
+          >
+            <ul class="navbar-nav">
+              <li class="nav-item me-3 bg-white rounded-pill">
+                <a
+                  class="nav-link fst-italic fw-900 px-4 text-15 text-primary"
+                  href="#"
+                  >CONTACT</a
+                >
+              </li>
+              <li class="nav-item me-3 bg-white rounded-pill">
+                <a
+                  class="nav-link fst-italic fw-900 px-4 text-15 text-primary"
+                  href="#"
+                  >WARRANTY FORM</a
+                >
+              </li>
+              <li class="nav-item me-3 bg-white rounded-pill">
+                <a
+                  class="nav-link fst-italic fw-900 px-4 text-15 text-primary"
+                  href="#"
+                  >TRAINING</a
+                >
+              </li>
+              <li class="nav-item me-3 bg-danger rounded-pill">
+                <a
+                  class="nav-link fst-italic fw-900 px-4 text-15 text-white"
+                  href="#"
+                  >SHOP ONLINE</a
+                >
+              </li>
+              <li class="nav-item me-3 bg-dark rounded-pill">
+                <a
+                  class="nav-link fst-italic fw-900 px-4 text-15 text-white"
+                  href="#"
+                  >INSTALLER SEARCH</a
+                >
+              </li>
+            </ul>
+          </div>
+
+          <div
+            class="d-md-block d-lg-none offcanvas offcanvas-end bg-dark"
+            tabindex="-1"
+            id="offcanvasNavbar"
+            aria-labelledby="offcanvasNavbarLabel"
+          >
+            <div
+              class="offcanvas-header justify-content-end align-items-center"
+            >
+              <button class="btn" type="button" data-bs-dismiss="offcanvas">
+                <i class="text-white fs-4 bi bi-x-lg"></i>
+              </button>
+            </div>
+            <div class="offcanvas-body justify-content-end">
+              <ul class="navbar-nav d-flex">
+                <li class="nav-item mb-2 bg-danger text-center rounded-pill">
+                  <a
+                    class="nav-link fst-italic fw-900 px-4 text-15 text-white"
+                    href="#"
+                    >SHOP ONLINE</a
+                  >
+                </li>
+                <li class="nav-item mb-2 bg-primary text-center rounded-pill">
+                  <a
+                    class="nav-link fst-italic fw-900 px-4 text-15 text-white"
+                    href="#"
+                    >CONTACT</a
+                  >
+                </li>
+                <li class="nav-item mb-2 bg-primary text-center rounded-pill">
+                  <a
+                    class="nav-link fst-italic fw-900 px-4 text-15 text-white"
+                    href="#"
+                    >WARRANTY FORM</a
+                  >
+                </li>
+                <li class="nav-item mb-2 bg-primary text-center rounded-pill">
+                  <a
+                    class="nav-link fst-italic fw-900 px-4 text-15 text-white"
+                    href="#"
+                    >TRAINING</a
+                  >
+                </li>
+                <li class="nav-item mb-2 bg-secondary text-center rounded-pill">
+                  <a
+                    class="nav-link fst-italic fw-900 px-4 text-15 text-white"
+                    href="#"
+                    >INSTALLER SEARCH</a
+                  >
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+    <main>
+      <!----------------------------------------Banner---------------------------------------->
+      <div class="row m-0 banner p-0">
+        <video
+          class="w-100 p-0"
+          height="600px"
+          src="./video/video-banner.mp4"
+          autoplay
+          loop
+          muted=""
+        ></video>
+      </div>
+      <!--------------------End Banner-------------------->
+
+      <!----------------------------------------Linear_color---------------------------------------->
+      <div class="row m-0 linear_color align-items-center">
+        <div class="col-6">
+          <h3
+            class="left-blue fw-light fst-italic fs-96 text-white text-end wow animate__animated animate__fadeIn animate__delay-1s"
+          >
+            <b class="fw-900 text-center">GLOBAL</b> <br />
+            Manufaceturer
+          </h3>
+        </div>
+        <div class="col-6">
+          <h3
+            class="right-black fw-light fst-italic fs-96 text-white wow animate__animated animate__fadeIn animate__delay-1s"
+          >
+            Innovative <br />
+            <b class="fw-900">BRAND</b>
+          </h3>
+        </div>
+      </div>
+      <!--------------------End Linear_color-------------------->
+
+      <!----------------------------------------National---------------------------------------->
+      <div class="row m-0 national py-5">
+        <div class="title fst-italic text-center p-0">
+          <h3 class="text-white fw-900 fs-49">AVAILABLE EVERYWHERE</h3>
+          <h4 class="text-primary fw-900 fs-39">
+            LOCAL DISTRIBUTION IN OVER 44 COUNTRIES & REGIONS
+          </h4>
+        </div>
+        <div class="flag_national d-flex flex-row flex-wrap">
+          <div class="item col-6 col-lg-2 p-3">
+            <div class="thumbnail">
+              <a href="">
+                <img
+                  src="https://gswf.com/wp-content/uploads/2022/07/Australia.svg"
+                  class="w-100"
+                  alt=""
+                />
+              </a>
+            </div>
+            <div
+              class="detail text-center bg-white d-flex flex-column align-content-center justify-content-center"
+            >
+              <a href="" class="text-decoration-none">
+                <p class="fs-26 fw-900">AUSTRALIA</p>
+              </a>
+            </div>
+          </div>
+
+          <div class="item col-6 col-lg-2 p-3">
+            <div class="thumbnail">
+              <a href="">
+                <img
+                  src="https://gswf.com/wp-content/uploads/2022/07/Austria.svg"
+                  class="w-100"
+                  alt=""
+                />
+              </a>
+            </div>
+            <div
+              class="detail text-center bg-white d-flex flex-column align-content-center justify-content-center"
+            >
+              <a href="" class="text-decoration-none">
+                <p class="fs-26 fw-900">AUTRIA</p>
+              </a>
+            </div>
+          </div>
+
+          <div class="item col-6 col-lg-2 p-3">
+            <div class="thumbnail">
+              <a href="">
+                <img
+                  src="https://gswf.com/wp-content/uploads/2022/07/Baltic.svg"
+                  class="w-100"
+                  alt=""
+                />
+              </a>
+            </div>
+            <div
+              class="detail text-center bg-white d-flex flex-column align-content-center justify-content-center"
+            >
+              <a href="" class="text-decoration-none">
+                <p class="fs-26 fw-900">BALTIC</p>
+              </a>
+              <span class="d-none d-md-block">Lithuania, Estonia, Latvia</span>
+            </div>
+          </div>
+
+          <div class="item col-6 col-lg-2 p-3">
+            <div class="thumbnail">
+              <a href="">
+                <img
+                  src="https://gswf.com/wp-content/uploads/2022/07/Belgium.svg"
+                  class="w-100"
+                  alt=""
+                />
+              </a>
+            </div>
+            <div
+              class="detail text-center bg-white d-flex flex-column align-content-center justify-content-center"
+            >
+              <a href="" class="text-decoration-none">
+                <p class="fs-26 fw-900">BELGIUM</p>
+              </a>
+            </div>
+          </div>
+
+          <div class="item col-6 col-lg-2 p-3">
+            <div class="thumbnail">
+              <a href="">
+                <img
+                  src="https://gswf.com/wp-content/uploads/2022/07/Brazil.svg"
+                  class="w-100"
+                  alt=""
+                />
+              </a>
+            </div>
+            <div
+              class="detail text-center bg-white d-flex flex-column align-content-center justify-content-center"
+            >
+              <a href="" class="text-decoration-none">
+                <p class="fs-26 fw-900">BRAZIL</p>
+              </a>
+            </div>
+          </div>
+
+          <div class="item col-6 col-lg-2 p-3">
+            <div class="thumbnail">
+              <a href="">
+                <img
+                  src="https://gswf.com/wp-content/uploads/2022/07/Canada.svg"
+                  class="w-100"
+                  alt=""
+                />
+              </a>
+            </div>
+            <div
+              class="detail text-center bg-white d-flex flex-column align-content-center justify-content-center"
+            >
+              <a href="" class="text-decoration-none">
+                <p class="fs-26 fw-900">CANADA</p>
+              </a>
+            </div>
+          </div>
+
+          <div class="item col-6 col-lg-2 p-3">
+            <div class="thumbnail">
+              <a href="">
+                <img
+                  src="https://gswf.com/wp-content/uploads/2022/07/Czech.svg"
+                  class="w-100"
+                  alt=""
+                />
+              </a>
+            </div>
+            <div
+              class="detail text-center bg-white d-flex flex-column align-content-center justify-content-center"
+            >
+              <a href="" class="text-decoration-none">
+                <p class="fs-26 fw-900">CZECH REPLUBLIC</p>
+              </a>
+            </div>
+          </div>
+
+          <div class="item col-6 col-lg-2 p-3">
+            <div class="thumbnail">
+              <a href="">
+                <img
+                  src="https://gswf.com/wp-content/uploads/2022/07/France.svg"
+                  class="w-100"
+                  alt=""
+                />
+              </a>
+            </div>
+            <div
+              class="detail text-center bg-white d-flex flex-column align-content-center justify-content-center"
+            >
+              <a href="" class="text-decoration-none">
+                <p class="fs-26 fw-900">FRANCE</p>
+              </a>
+            </div>
+          </div>
+
+          <div class="item col-6 col-lg-2 p-3">
+            <div class="thumbnail">
+              <a href="">
+                <img
+                  src="https://gswf.com/wp-content/uploads/2022/07/Germany.svg"
+                  class="w-100"
+                  alt=""
+                />
+              </a>
+            </div>
+            <div
+              class="detail text-center bg-white d-flex flex-column align-content-center justify-content-center"
+            >
+              <a href="" class="text-decoration-none">
+                <p class="fs-26 fw-900">GERMANY</p>
+              </a>
+            </div>
+          </div>
+
+          <div class="item col-6 col-lg-2 p-3">
+            <div class="thumbnail">
+              <a href="">
+                <img
+                  src="https://gswf.com/wp-content/uploads/2022/07/Hong-Kong.svg"
+                  class="w-100"
+                  alt=""
+                />
+              </a>
+            </div>
+            <div
+              class="detail text-center bg-white d-flex flex-column align-content-center justify-content-center"
+            >
+              <a href="" class="text-decoration-none">
+                <p class="fs-26 fw-900">HONG KONG</p>
+              </a>
+            </div>
+          </div>
+
+          <div class="item col-6 col-lg-2 p-3">
+            <div class="thumbnail">
+              <a href="">
+                <img
+                  src="https://gswf.com/wp-content/uploads/2022/07/India.svg"
+                  class="w-100"
+                  alt=""
+                />
+              </a>
+            </div>
+            <div
+              class="detail text-center bg-white d-flex flex-column align-content-center justify-content-center"
+            >
+              <a href="" class="text-decoration-none">
+                <p class="fs-26 fw-900">INDIA</p>
+              </a>
+            </div>
+          </div>
+
+          <div class="item col-6 col-lg-2 p-3">
+            <div class="thumbnail">
+              <a href="">
+                <img
+                  src="https://gswf.com/wp-content/uploads/2022/07/Israel.svg"
+                  class="w-100"
+                  alt=""
+                />
+              </a>
+            </div>
+            <div
+              class="detail text-center bg-white d-flex flex-column align-content-center justify-content-center"
+            >
+              <a href="" class="text-decoration-none">
+                <p class="fs-26 fw-900">ISRAEL</p>
+              </a>
+            </div>
+          </div>
+
+          <div class="item col-6 col-lg-2 p-3">
+            <div class="thumbnail">
+              <a href="">
+                <img
+                  src="https://gswf.com/wp-content/uploads/2022/07/Italy.svg"
+                  class="w-100"
+                  alt=""
+                />
+              </a>
+            </div>
+            <div
+              class="detail text-center bg-white d-flex flex-column align-content-center justify-content-center"
+            >
+              <a href="" class="text-decoration-none">
+                <p class="fs-26 fw-900">ITALY</p>
+              </a>
+            </div>
+          </div>
+
+          <div class="item col-6 col-lg-2 p-3">
+            <div class="thumbnail">
+              <a href="">
+                <img
+                  src="https://gswf.com/wp-content/uploads/2022/06/Macau-NEW-300x177.png"
+                  class="w-100"
+                  alt=""
+                />
+              </a>
+            </div>
+            <div
+              class="detail text-center bg-white d-flex flex-column align-content-center justify-content-center"
+            >
+              <a href="" class="text-decoration-none">
+                <p class="fs-26 fw-900">MACAU</p>
+              </a>
+            </div>
+          </div>
+
+          <div class="item col-6 col-lg-2 p-3">
+            <div class="thumbnail">
+              <a href="">
+                <img
+                  src="https://gswf.com/wp-content/uploads/2022/07/Malaysia.svg"
+                  class="w-100"
+                  alt=""
+                />
+              </a>
+            </div>
+            <div
+              class="detail text-center bg-white d-flex flex-column align-content-center justify-content-center"
+            >
+              <a href="" class="text-decoration-none">
+                <p class="fs-26 fw-900">MALAYSIA</p>
+              </a>
+            </div>
+          </div>
+
+          <div class="item col-6 col-lg-2 p-3">
+            <div class="thumbnail">
+              <a href="">
+                <img
+                  src="https://gswf.com/wp-content/uploads/2022/06/DUBAI-300x200.jpeg"
+                  class="w-100"
+                  alt=""
+                />
+              </a>
+            </div>
+            <div
+              class="detail text-center bg-white d-flex flex-column align-content-center justify-content-center"
+            >
+              <a href="" class="text-decoration-none">
+                <p class="fs-26 fw-900">MIDDLE EAST</p>
+              </a>
+              <span class="d-none d-md-block"
+                >UAE, Kuwait, Qatar, Oman, Bhraine</span
+              >
+            </div>
+          </div>
+
+          <div class="item col-6 col-lg-2 p-3">
+            <div class="thumbnail">
+              <a href="">
+                <img
+                  src="https://gswf.com/wp-content/uploads/2022/05/flags-nordic-300x225.jpeg"
+                  class="w-100"
+                  alt=""
+                />
+              </a>
+            </div>
+            <div
+              class="detail text-center bg-white d-flex flex-column align-content-center justify-content-center"
+            >
+              <a href="" class="text-decoration-none">
+                <p class="fs-26 fw-900">NORDIC REGION</p>
+              </a>
+              <span class="d-none d-md-block"
+                >Sweden, Norway, Finland, Denmark, Iceland</span
+              >
+            </div>
+          </div>
+
+          <div class="item col-6 col-lg-2 p-3">
+            <div class="thumbnail">
+              <a href="">
+                <img
+                  src="https://gswf.com/wp-content/uploads/2022/07/Pakistan.svg"
+                  class="w-100"
+                  alt=""
+                />
+              </a>
+            </div>
+            <div
+              class="detail text-center bg-white d-flex flex-column align-content-center justify-content-center"
+            >
+              <a href="" class="text-decoration-none">
+                <p class="fs-26 fw-900">PAKISTAN</p>
+              </a>
+            </div>
+          </div>
+
+          <div class="item col-6 col-lg-2 p-3">
+            <div class="thumbnail">
+              <a href="">
+                <img
+                  src="https://gswf.com/wp-content/uploads/2022/06/Poland-New.svg"
+                  class="w-100"
+                  alt=""
+                />
+              </a>
+            </div>
+            <div
+              class="detail text-center bg-white d-flex flex-column align-content-center justify-content-center"
+            >
+              <a href="" class="text-decoration-none">
+                <p class="fs-26 fw-900">POLAND</p>
+              </a>
+            </div>
+          </div>
+
+          <div class="item col-6 col-lg-2 p-3">
+            <div class="thumbnail">
+              <a href="">
+                <img
+                  src="https://gswf.com/wp-content/uploads/2022/07/Romania.svg"
+                  class="w-100"
+                  alt=""
+                />
+              </a>
+            </div>
+            <div
+              class="detail text-center bg-white d-flex flex-column align-content-center justify-content-center"
+            >
+              <a href="" class="text-decoration-none">
+                <p class="fs-26 fw-900">ROMANIA</p>
+              </a>
+            </div>
+          </div>
+
+          <div class="item col-6 col-lg-2 p-3">
+            <div class="thumbnail">
+              <a href="">
+                <img
+                  src="https://gswf.com/wp-content/uploads/2022/07/Saudi-Arabia.svg"
+                  class="w-100"
+                  alt=""
+                />
+              </a>
+            </div>
+            <div
+              class="detail text-center bg-white d-flex flex-column align-content-center justify-content-center"
+            >
+              <a href="" class="text-decoration-none">
+                <p class="fs-26 fw-900">SAUDI ARABIA</p>
+              </a>
+            </div>
+          </div>
+
+          <div class="item col-6 col-lg-2 p-3">
+            <div class="thumbnail">
+              <a href="">
+                <img
+                  src="https://gswf.com/wp-content/uploads/2022/07/Singapore.svg"
+                  class="w-100"
+                  alt=""
+                />
+              </a>
+            </div>
+            <div
+              class="detail text-center bg-white d-flex flex-column align-content-center justify-content-center"
+            >
+              <a href="" class="text-decoration-none">
+                <p class="fs-26 fw-900">SINGAPORE</p>
+              </a>
+            </div>
+          </div>
+
+          <div class="item col-6 col-lg-2 p-3">
+            <div class="thumbnail">
+              <a href="">
+                <img
+                  src="https://gswf.com/wp-content/uploads/2022/07/Slovakia.svg"
+                  class="w-100"
+                  alt=""
+                />
+              </a>
+            </div>
+            <div
+              class="detail text-center bg-white d-flex flex-column align-content-center justify-content-center"
+            >
+              <a href="" class="text-decoration-none">
+                <p class="fs-26 fw-900">SLOVAKIA</p>
+              </a>
+            </div>
+          </div>
+
+          <div class="item col-6 col-lg-2 p-3">
+            <div class="thumbnail">
+              <a href="">
+                <img
+                  src="https://gswf.com/wp-content/uploads/2022/07/South-Africa.svg"
+                  class="w-100"
+                  alt=""
+                />
+              </a>
+            </div>
+            <div
+              class="detail text-center bg-white d-flex flex-column align-content-center justify-content-center"
+            >
+              <a href="" class="text-decoration-none">
+                <p class="fs-26 fw-900">SOUTH AFRICA</p>
+              </a>
+            </div>
+          </div>
+
+          <div class="item col-6 col-lg-2 p-3">
+            <div class="thumbnail">
+              <a href="">
+                <img
+                  src="https://gswf.com/wp-content/uploads/2022/07/South-Korea.svg"
+                  class="w-100"
+                  alt=""
+                />
+              </a>
+            </div>
+            <div
+              class="detail text-center bg-white d-flex flex-column align-content-center justify-content-center"
+            >
+              <a href="" class="text-decoration-none">
+                <p class="fs-26 fw-900">SOUTH KOREA</p>
+              </a>
+            </div>
+          </div>
+
+          <div class="item col-6 col-lg-2 p-3">
+            <div class="thumbnail">
+              <a href="">
+                <img
+                  src="https://gswf.com/wp-content/uploads/2022/07/Spain.svg"
+                  class="w-100"
+                  alt=""
+                />
+              </a>
+            </div>
+            <div
+              class="detail text-center bg-white d-flex flex-column align-content-center justify-content-center"
+            >
+              <a href="" class="text-decoration-none">
+                <p class="fs-26 fw-900">SPAIN</p>
+              </a>
+            </div>
+          </div>
+
+          <div class="item col-6 col-lg-2 p-3">
+            <div class="thumbnail">
+              <a href="">
+                <img
+                  src="https://gswf.com/wp-content/uploads/2022/07/Netherlands.svg"
+                  class="w-100"
+                  alt=""
+                />
+              </a>
+            </div>
+            <div
+              class="detail text-center bg-white d-flex flex-column align-content-center justify-content-center"
+            >
+              <a href="" class="text-decoration-none">
+                <p class="fs-26 fw-900">THE NETHERLAND</p>
+              </a>
+            </div>
+          </div>
+
+          <div class="item col-6 col-lg-2 p-3">
+            <div class="thumbnail">
+              <a href="">
+                <img
+                  src="https://gswf.com/wp-content/uploads/2022/07/Turkey.svg"
+                  class="w-100"
+                  alt=""
+                />
+              </a>
+            </div>
+            <div
+              class="detail text-center bg-white d-flex flex-column align-content-center justify-content-center"
+            >
+              <a href="" class="text-decoration-none">
+                <p class="fs-26 fw-900">TURKEY</p>
+              </a>
+            </div>
+          </div>
+
+          <div class="item col-6 col-lg-2 p-3">
+            <div class="thumbnail">
+              <a href="">
+                <img
+                  src="https://gswf.com/wp-content/uploads/2022/07/USA.svg"
+                  class="w-100"
+                  alt=""
+                />
+              </a>
+            </div>
+            <div
+              class="detail text-center bg-white d-flex flex-column align-content-center justify-content-center"
+            >
+              <a href="" class="text-decoration-none">
+                <p class="fs-26 fw-900">USA</p>
+              </a>
+            </div>
+          </div>
+
+          <div class="item col-6 col-lg-2 p-3">
+            <div class="thumbnail">
+              <a href="">
+                <img
+                  src="https://gswf.com/wp-content/uploads/2022/07/Vietnam.svg"
+                  class="w-100"
+                  alt=""
+                />
+              </a>
+            </div>
+            <div
+              class="detail text-center bg-white d-flex flex-column align-content-center justify-content-center"
+            >
+              <a href="" class="text-decoration-none">
+                <p class="fs-26 fw-900">VIETNAM</p>
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="title-bottom fst-italic text-center py-5">
+          <h3 class="text-white fw-900 fs-49">
+            Don't see your country listed here?
+          </h3>
+          <button
+            class="btn btn-primary fw-900 rounded-pill px-4 text-white fs-18 fst-italic my-4"
+          >
+            BUY DIRECTLY FROM GSWF GLOBAL
+          </button>
+        </div>
+      </div>
+      <!--------------------End National-------------------->
+
+      <!----------------------------------------Service---------------------------------------->
+      <div class="row m-0 service py-5">
+        <div class="p-7">
+          <div class="title fst-italic text-center pt-5 py-3">
+            <h3 class="text-primary fs-28 fw-900">
+              SUPERIOR QUALITY, END TO END
+            </h3>
+            <h2 class="text-white mb-4 fs-135 fw-900">WE KNOW PPF</h2>
+          </div>
+          <div class="list d-flex flex-wrap text-white">
+            <div class="item px-2 col-6 col-md-3 p-0 px-lg-4">
+              <h3 class="fs-36 fw-900">CLARITY</h3>
+              <p class="fs-20">
+                Our PPF products have the best clairty on the market , with no
+                orange peeling and the highest level of smooth gloss.
+              </p>
+            </div>
+            <div class="item px-2 col-6 col-md-3 p-0 px-lg-4">
+              <h3 class="fs-36 fw-900">STRETCH</h3>
+              <p class="fs-20">
+                Pull our PPF to it’s very limits withought leaving nasty stretch
+                lines behind. Our product performs best-in-class.
+              </p>
+            </div>
+
+            <div class="item px-2 col-6 col-md-3 p-0 px-lg-4">
+              <h3 class="fs-36 fw-900">ADHESIVE</h3>
+              <p class="fs-20">
+                No touch ups a week later! Top-coat technology that doesn’t
+                retreat after being stretched, even around corners. Installers
+                save cost and have peace of mind.
+              </p>
+            </div>
+
+            <div class="item px-2 col-6 col-md-3 p-0 px-lg-4">
+              <h3 class="fs-36 fw-900">WARRANTY</h3>
+              <p class="fs-20">
+                Best warranty and customer service on the market. Online
+                Warranty application and Platinum Film means we’ve got your
+                back. No matter what.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!--------------------End Service-------------------->
+
+      <!----------------------------------------Establish---------------------------------------->
+      <div class="row m-0 establish py-5">
+        <div class="main p-6 d-flex flex-column-reverse flex-md-row">
+          <div
+            class="item col-12 col-md-6 d-flex flex-column justify-content-center me-md-2 me-lg-0"
+          >
+            <h3 class="fs-49 text-primary fst-italic">
+              We are an
+              <span class="fw-900"> established </span>
+              and
+              <span class="fw-900"> reliable </span>
+              manufacturer.
+            </h3>
+            <ul class="list-unstyled">
+              <li class="fw-900 fs-20 fst-italic">
+                <i class="text-primary bi bi-check-lg"></i>
+                <span class="text-secondary">200 EMPLOYEES</span>
+              </li>
+              <li class="fw-900 fs-20 fst-italic">
+                <i class="text-primary bi bi-check-lg"></i>
+                <span class="text-secondary"
+                  >96 MILLION USD IN ANNUAL SALES</span
+                >
+              </li>
+              <li class="fw-900 fs-20 fst-italic">
+                <i class="text-primary bi bi-check-lg"></i>
+                <span class="text-secondary"
+                  >PRODUCTION CAPACITY OF 100K ROLLS A MONTH</span
+                >
+              </li>
+            </ul>
+          </div>
+
+          <div class="item py-5 py-md-0 col-12 col-md-6">
+            <div class="thumbnail_top">
+              <img
+                src="https://gswf.com/wp-content/uploads/2022/04/GSWF-Manufacturer-2-1024x683.jpeg"
+                class="w-100 shadow"
+                alt=""
+              />
+            </div>
+            <div class="thumbnail_center">
+              <img
+                src="https://gswf.com/wp-content/uploads/2022/04/GSWF-Manufacturer-1-1024x510.jpeg"
+                class="w-100 shadow"
+                alt=""
+              />
+            </div>
+            <div class="thumbnail_bottom">
+              <img
+                src="https://gswf.com/wp-content/uploads/2022/04/GSWF-Manufacturer-3-1024x683.jpeg"
+                class="w-100 shadow"
+                alt=""
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+      <!--------------------End Establish-------------------->
+
+      <!----------------------------------------Development---------------------------------------->
+      <div class="row m-0 development py-0 py-md-5 bg-primary p-0">
+        <div class="item d-flex flex-row flex-wrap p-0">
+          <div class="item_left col-12 col-md-5 p-0">
+            <div class="thumbnail"></div>
+          </div>
+          <div
+            class="item_right col-12 col-md-7 d-flex flex-column justify-content-center pt-3 pt-md-0 p-2"
+          >
+            <div
+              class="topic bg-white text-dark mb-4 mb-lg-5 wow animate__animated animate__fadeInRight animate__delay-0s"
+            >
+              <div
+                class="title d-flex flex-row justify-content-between align-items-center text-primary fst-italic"
+              >
+                <h3 class="fs-36-development fw-900">
+                  INTERNATIONAL <br />
+                  <span class="fs-19-development fw-400"
+                    >MANUFACTURING FACILITY</span
+                  >
+                </h3>
+                <div class="d-md-none d-lg-block">
+                  <i class="fs-1 bi bi-globe"></i>
+                </div>
+              </div>
+              <p class="fs-20-development text-secondary pe-4">
+                Our state-of-the-art manufacturing facility has the latest in
+                PPF manufacturing technology. Our combination of German/
+                Japanese engineered machinery boast an impressive output
+                capacity of 1.5 million meters per month. We also have patented
+                technology for material dispersion, PPF coatings and UV curing.
+              </p>
+            </div>
+            <div
+              class="topic bg-white text-dark mb-4 mb-lg-5 wow animate__animated animate__fadeInRight animate__delay-1s"
+            >
+              <div
+                class="title d-flex flex-row justify-content-between align-items-center text-primary fst-italic"
+              >
+                <h3 class="fs-36-development fw-900">
+                  CUTTING EDGE <br />
+                  <span class="fs-19-development fw-400"
+                    >RESEARCH AND DEVELOPMENT</span
+                  >
+                </h3>
+                <div class="d-md-none d-lg-block">
+                  <i class="fs-1 bi bi-gear"></i>
+                </div>
+              </div>
+              <p class="fs-20-development text-secondary">
+                GSWF knows that the very best protective films are the result of
+                a painstakingly rigorous research and development process. We
+                have laboratories in Zhejiang, Shanghai, Germany and Singapore
+                who are in constant pursuit of quality. Our products not only
+                look flawless but come backed by highly advanced performance.
+              </p>
+            </div>
+            <div
+              class="topic bg-white text-dark mb-4 mb-lg-5 wow animate__animated animate__fadeInRight animate__delay-2s"
+            >
+              <div
+                class="title d-flex flex-row justify-content-between align-items-center text-primary fst-italic"
+              >
+                <h3 class="fs-36-development fw-900">
+                  FUTUREBOUND <br />
+                  <span class="fs-19-development fw-400">PRODUCT CATALOG</span>
+                </h3>
+                <div class="d-md-none d-lg-block">
+                  <i class="fs-1 bi bi-arrow-left-right"></i>
+                </div>
+              </div>
+              <p class="fs-20-development text-secondary">
+                Our product line is already among the most comprehensive in the
+                industry. Our beautiful, High-Gloss Clear PPF line alone comes
+                in multiple varieties. Our Satin and Matte PPF is nothing short
+                of perfection. Our innovative Infused Color PPF line is growing
+                rapidly and our headlight and tail light PPF are quickly
+                becoming industry favorites.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="quality py-5 p-6 d-flex flex-row flex-wrap">
+          <div class="col-12 col-md-6 col-lg-5 p-3 p-lg-5">
+            <h3 class="text-white fst-italic fw-light">
+              We keep the <b>highest</b> manufacturing standards for protection
+              film you can <b>trust</b>.
+            </h3>
+          </div>
+          <div
+            class="col-12 col-md-6 col-lg-7 d-flex align-items-center justify-content-center"
+          >
+            <img
+              src="https://gswf.com/wp-content/uploads/2021/05/ICONS-certification.svg"
+              class="w-100"
+              alt=""
+            />
+          </div>
+        </div>
+      </div>
+      <!--------------------End Development-------------------->
+
+      <!----------------------------------------Option---------------------------------------->
+      <div class="row m-0 option text-center py-5">
+        <div class="main p-6">
+          <div
+            class="title pt-5 fst-italic d-flex flex-column align-items-center"
+          >
+            <h2 class="text-white fw-900">38 PPF OPTIONS</h2>
+            <h3 class="text-primary">THE LARGEST LINE OF PPF IN THE WORLD</h3>
+            <div class="border-bottom w-25 my-3"></div>
+          </div>
+          <div class="select fw-900 text-white">
+            <p class="m-0">
+              <span class="text-primary">26</span> COLORS<i
+                class="bi bi-dot"
+              ></i>
+              <span class="text-primary">5</span> CLEAR GLOSS
+            </p>
+            <p class="m-0">
+              <span class="text-primary">1</span> CLEAR SATIN<i
+                class="bi bi-dot"
+              ></i>
+              <span class="text-primary">1</span> CLEAR MATTE
+            </p>
+            <p class="m-0">
+              <span class="text-primary">3</span> SHADES HEADLIGHT
+            </p>
+            <p class="m-0"><span class="text-primary">1</span> SUNROOF PPF</p>
+
+            <ul class="navbar-nav d-flex align-items-center">
+              <li
+                class="nav-item bg-danger rounded-pill my-5 col-6 col-md-4 col-lg-2"
+              >
+                <a class="nav-link fst-italic fw-900 px-4 text-white" href="#"
+                  >SHOP ONLINE</a
+                >
+              </li>
+              <li
+                class="nav-item bg-danger rounded-pill col-9 col-md-5 col-lg-2"
+              >
+                <a class="nav-link fst-italic fw-900 px-4 text-white" href="#"
+                  >SHOP.SPANDEX.COM</a
+                >
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <!--------------------End Option-------------------->
+
+      <!----------------------------------------Defender---------------------------------------->
+      <div class="row m-0 defender">
+        <div class="overlay"></div>
+        <div class="main p-6">
+          <img
+            src="https://gswf.com/wp-content/uploads/2021/06/Defender-Logo-Sting-2.svg"
+            class="w-100"
+            alt=""
+          />
+          <div class="border-2 border-bottom my-4"></div>
+          <div class="list_defender d-flex flex-wrap py-3">
+            <div class="item col-md-3 col-lg-3 p-2">
+              <h3 class="fw-900 text-white fst-italic">
+                OUR CLEAR PPF LINE HITS ALL THE MARKS
+              </h3>
+              <div
+                class="nav-item bg-danger rounded-pill text-center col-12 col-lg-4 mt-4 align-items-center"
+              >
+                <a class="nav-link fst-italic fw-900 px-1 text-white" href="#"
+                  >SHOP ONLINE</a
+                >
+              </div>
+            </div>
+            <div class="item col-md-4 col-lg-3 p-2">
+              <ul class="list-unstyled">
+                <li
+                  class="fw-900 fst-italic d-flex flex-row align-items-center mb-2"
+                >
+                  <i class="fs-4 text-primary bi bi-check-circle-fill me-2"></i>
+                  <span class="text-white">NON-YELLOWING</span>
+                </li>
+                <li
+                  class="fw-900 fst-italic d-flex flex-row align-items-center mb-2"
+                >
+                  <i class="fs-4 text-primary bi bi-check-circle-fill me-2"></i>
+                  <span class="text-white">CRYSTAL CLARITY</span>
+                </li>
+                <li
+                  class="fw-900 fst-italic d-flex flex-row align-items-center mb-2 d-block d-lg-none"
+                >
+                  <i class="fs-4 text-primary bi bi-check-circle-fill me-2"></i>
+                  <span class="text-white">MIRROR-LIKE GLOSS</span>
+                </li>
+                <li
+                  class="fw-900 fst-italic d-flex flex-row align-items-center mb-2"
+                >
+                  <i class="fs-4 text-primary bi bi-check-circle-fill me-2"></i>
+                  <span class="text-white"
+                    >FLAWLESSLY SMOOTH SATIN AND MATTE</span
+                  >
+                </li>
+                <li
+                  class="fw-900 fst-italic d-flex flex-row align-items-center mb-2"
+                >
+                  <i class="fs-4 text-primary bi bi-check-circle-fill me-2"></i>
+                  <span class="text-white">SELF-HEALING</span>
+                </li>
+              </ul>
+            </div>
+            <div class="item col-md-4 col-lg-3 p-2">
+              <ul class="list-unstyled">
+                <li
+                  class="fw-900 fst-italic d-flex flex-row align-items-center mb-2"
+                >
+                  <i class="fs-4 text-primary bi bi-check-circle-fill me-2"></i>
+                  <span class="text-white">ANTI-FOULING</span>
+                </li>
+                <li
+                  class="fw-900 fst-italic d-flex flex-row align-items-center mb-2"
+                >
+                  <i class="fs-4 text-primary bi bi-check-circle-fill me-2"></i>
+                  <span class="text-white">ANTI-SCRATCH</span>
+                </li>
+                <li
+                  class="fw-900 fst-italic d-flex flex-row align-items-center mb-2"
+                >
+                  <i class="fs-4 text-primary bi bi-check-circle-fill me-2"></i>
+                  <span class="text-white">ANTI-OXIDATION</span>
+                </li>
+                <li
+                  class="fw-900 fst-italic d-flex flex-row align-items-center mb-2"
+                >
+                  <i class="fs-4 text-primary bi bi-check-circle-fill me-2"></i>
+                  <span class="text-white">UV-REJECTION</span>
+                </li>
+                <li
+                  class="fw-900 fst-italic d-flex flex-row align-items-center mb-2"
+                >
+                  <i class="fs-4 text-primary bi bi-check-circle-fill me-2"></i>
+                  <span class="text-white">MAXIMUM STRETCHIBILITY</span>
+                </li>
+              </ul>
+            </div>
+            <div class="item col-3 d-none d-lg-block">
+              <ul class="list-unstyled">
+                <li
+                  class="fw-900 fst-italic d-flex flex-row align-items-center mb-2"
+                >
+                  <i class="fs-4 text-primary bi bi-check-circle-fill me-2"></i>
+                  <span class="text-white">ACID RAIN RESISTANCE</span>
+                </li>
+                <li
+                  class="fw-900 fst-italic d-flex flex-row align-items-center mb-2"
+                >
+                  <i class="fs-4 text-primary bi bi-check-circle-fill me-2"></i>
+                  <span class="text-white">HIGH IMPACT RESISTANCE</span>
+                </li>
+                <li
+                  class="fw-900 fst-italic d-flex flex-row align-items-center mb-2"
+                >
+                  <i class="fs-4 text-primary bi bi-check-circle-fill me-2"></i>
+                  <span class="text-white">SWIRL RESISTANCE</span>
+                </li>
+                <li
+                  class="fw-900 fst-italic d-flex flex-row align-items-center mb-2"
+                >
+                  <i class="fs-4 text-primary bi bi-check-circle-fill me-2"></i>
+                  <span class="text-white">ALKALI RESISTANCE</span>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class="border-2 border-bottom my-4"></div>
+        </div>
+      </div>
+      <!--------------------End Defender-------------------->
+
+      <!----------------------------------------Shop---------------------------------------->
+      <div class="row m-0 shop position-relative">
+        <video
+          class="w-100 p-0"
+          height="600px"
+          src="./video/shop.mp4"
+          autoplay
+          loop
+          muted=""
+        ></video>
+        <div class="main p-7 py-5 position-absolute col-12 col-md-8">
+          <h3 class="fw-900 text-white fst-italic">
+            Incredible One-Piece Full Hood on a Rolls Royce
+          </h3>
+          <ul class="list-unstyled p-0">
+            <li
+              class="nav-link p-0 fw-900 fst-italic d-flex flex-row align-items-center mb-4 mb-md-2"
+            >
+              <a
+                class="nav-item bg-primary p-2 px-4 rounded-pill text-decoration-none text-white"
+                >SHOP DEFENDER</a
+              >
+            </li>
+            <li
+              class="nav-link p-0 fw-900 fst-italic d-flex flex-row align-items-center mb-4 mb-md-2"
+            >
+              <a
+                class="nav-item bg-primary p-2 px-4 rounded-pill text-decoration-none text-white"
+                >SHOP DEFENDER</a
+              >
+            </li>
+          </ul>
+        </div>
+        <div class="border border-5 border-bottom border-primary"></div>
+      </div>
+      <!--------------------End Shop-------------------->
+
+      <!----------------------------------------Color---------------------------------------->
+      <div class="row m-0 color bg-dark pt-5">
+        <div class="title d-flex flex-wrap flex-row py-5 p-6">
+          <div class="title_left col-12 col-md-8 col-lg-9">
+            <img
+              src="https://gswf.com/wp-content/uploads/2022/01/CHROMA-GUARD-FADE-Dark.svg"
+              class="w-100"
+              alt=""
+            />
+          </div>
+          <div
+            class="title_right d-flex flex-wrap flex-column text-center text-md-start justify-content-center text-white col-12 col-md-4 col-lg-3 pt-4 pt-md-0 px-3"
+          >
+            <h3 class="fw-900 fst-italic pt-5">THE ORIGINAL COLOR PPF</h3>
+            <p class="fw-light">
+              Our extensive line is constantly growing. lead the color ppf
+              revolution by offering the industry’s best.
+            </p>
+            <ul
+              class="list-unstyled p-0 d-flex flex-wrap justify-content-center align-items-center"
+            >
+              <li
+                class="nav-link p-0 fw-900 fst-italic text-center mb-2 col-lg-6 d-flex flex-row align-items-center"
+              >
+                <a
+                  class="nav-item bg-primary p-2 px-4 rounded-pill text-decoration-none text-white"
+                  >SHOP COLOR PPF</a
+                >
+              </li>
+              <li
+                class="nav-link p-0 fw-900 fst-italic text-center mb-2 col-lg-6 d-flex flex-row align-items-center"
+              >
+                <a
+                  class="nav-item bg-primary p-2 px-4 rounded-pill text-decoration-none text-white"
+                  >SHOP COLOR PPF</a
+                >
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="pick">
+          <div class="title fst-italic text-center text-md-start p-6">
+            <img
+              src="https://gswf.com/wp-content/uploads/2022/05/24.-Satin-Military-Olive-Green-300x300.jpg"
+              alt=""
+            />
+            <h3 class="fw-900 py-2 text-white">Featured Color...</h3>
+            <h4 class="fw-900">SATIN MILITARY OLIVE GREEN</h4>
+          </div>
+          <div class="main d-flex flex-row flex-wrap p-6 pt-5">
+            <div class="item col-4 col-md-6 col-lg-2 p-1 p-md-2">
+              <div class="thumbnail wow animate__animated animate__zoomIn">
+                <img
+                  class="w-100"
+                  src="https://gswf.com/wp-content/uploads/2022/08/28.-Gloss-Wicked-Bullion-300x300.jpg"
+                  alt=""
+                />
+              </div>
+            </div>
+            <div class="item col-4 col-md-6 col-lg-2 p-1 p-md-2">
+              <div class="thumbnail wow animate__animated animate__zoomIn">
+                <img
+                  class="w-100"
+                  src="https://gswf.com/wp-content/uploads/2022/08/29.-Gloss-Wicked-Thundercloud-300x300.jpg"
+                  alt=""
+                />
+              </div>
+            </div>
+            <div class="item col-4 col-md-6 col-lg-2 p-1 p-md-2">
+              <div class="thumbnail wow animate__animated animate__zoomIn">
+                <img
+                  class="w-100"
+                  src="https://gswf.com/wp-content/uploads/2022/08/27.-Gloss-Wicked-Jungle-300x300.jpg"
+                  alt=""
+                />
+              </div>
+            </div>
+            <div class="item col-4 col-md-6 col-lg-2 p-1 p-md-2">
+              <div class="thumbnail wow animate__animated animate__zoomIn">
+                <img
+                  class="w-100"
+                  src="https://gswf.com/wp-content/uploads/2022/05/21.-Gloss-Dark-Amethyst-300x300.jpg"
+                  alt=""
+                />
+              </div>
+            </div>
+            <div class="item col-4 col-md-6 col-lg-2 p-1 p-md-2">
+              <div class="thumbnail wow animate__animated animate__zoomIn">
+                <img
+                  class="w-100"
+                  src="https://gswf.com/wp-content/uploads/2022/05/20.-Gloss-NIght-Sky-300x300.jpg"
+                  alt=""
+                />
+              </div>
+            </div>
+            <div class="item col-4 col-md-6 col-lg-2 p-1 p-md-2">
+              <div class="thumbnail wow animate__animated animate__zoomIn">
+                <img
+                  class="w-100"
+                  src="https://gswf.com/wp-content/uploads/2022/05/22.-Gloss-Lipstick-Kiss-Red-300x300.jpg"
+                  alt=""
+                />
+              </div>
+            </div>
+            <div class="item col-4 col-md-6 col-lg-2 p-1 p-md-2">
+              <div class="thumbnail wow animate__animated animate__zoomIn">
+                <img
+                  class="w-100"
+                  src="https://gswf.com/wp-content/uploads/2022/05/23.-Gloss-Military-Olive-Green-300x300.jpg"
+                  alt=""
+                />
+              </div>
+            </div>
+            <div class="item col-4 col-md-6 col-lg-2 p-1 p-md-2">
+              <div class="thumbnail wow animate__animated animate__zoomIn">
+                <img
+                  class="w-100"
+                  src="https://gswf.com/wp-content/uploads/2022/05/24.-Satin-Military-Olive-Green-300x300.jpg"
+                  alt=""
+                />
+              </div>
+            </div>
+            <div class="item col-4 col-md-6 col-lg-2 p-1 p-md-2">
+              <div class="thumbnail wow animate__animated animate__zoomIn">
+                <img
+                  class="w-100"
+                  src="https://gswf.com/wp-content/uploads/2022/05/25.-Satin-Latte-300x300.jpg"
+                  alt=""
+                />
+              </div>
+            </div>
+            <div class="item col-4 col-md-6 col-lg-2 p-1 p-md-2">
+              <div class="thumbnail wow animate__animated animate__zoomIn">
+                <img
+                  class="w-100"
+                  src="https://gswf.com/wp-content/uploads/2022/05/26.-Gloss-Bahama-Sea-Breeze-300x300.jpg"
+                  alt=""
+                />
+              </div>
+            </div>
+            <div class="item col-4 col-md-6 col-lg-2 p-1 p-md-2">
+              <div class="thumbnail wow animate__animated animate__zoomIn">
+                <img
+                  class="w-100"
+                  src="https://gswf.com/wp-content/uploads/2022/05/12.-Bright-Bubblegum-Gloss-300x300.jpg"
+                  alt=""
+                />
+              </div>
+            </div>
+            <div class="item col-4 col-md-6 col-lg-2 p-1 p-md-2">
+              <div class="thumbnail wow animate__animated animate__zoomIn">
+                <img
+                  class="w-100"
+                  src="https://gswf.com/wp-content/uploads/2022/05/8.-Sky-Blue-Gloss-300x300.jpg"
+                  alt=""
+                />
+              </div>
+            </div>
+            <div class="item col-4 col-md-6 col-lg-2 p-1 p-md-2">
+              <div class="thumbnail wow animate__animated animate__zoomIn">
+                <img
+                  class="w-100"
+                  src="https://gswf.com/wp-content/uploads/2022/05/10.-Crimson-Red-Gloss-300x300.jpg"
+                  alt=""
+                />
+              </div>
+            </div>
+            <div class="item col-4 col-md-6 col-lg-2 p-1 p-md-2">
+              <div class="thumbnail wow animate__animated animate__zoomIn">
+                <img
+                  class="w-100"
+                  src="https://gswf.com/wp-content/uploads/2022/05/16.-Bright-Orange-Gloss-300x300.jpg"
+                  alt=""
+                />
+              </div>
+            </div>
+            <div class="item col-4 col-md-6 col-lg-2 p-1 p-md-2">
+              <div class="thumbnail wow animate__animated animate__zoomIn">
+                <img
+                  class="w-100"
+                  src="https://gswf.com/wp-content/uploads/2022/05/14.-Sunshine-Yellow-Gloss-300x300.jpg"
+                  alt=""
+                />
+              </div>
+            </div>
+            <div class="item col-4 col-md-6 col-lg-2 p-1 p-md-2">
+              <div class="thumbnail wow animate__animated animate__zoomIn">
+                <img
+                  class="w-100"
+                  src="https://gswf.com/wp-content/uploads/2022/05/18.-Grass-Green-Gloss-300x300.jpg"
+                  alt=""
+                />
+              </div>
+            </div>
+            <div class="item col-4 col-md-6 col-lg-2 p-1 p-md-2">
+              <div class="thumbnail wow animate__animated animate__zoomIn">
+                <img
+                  class="w-100"
+                  src="https://gswf.com/wp-content/uploads/2022/05/5.-Deep-Black-Gloss-300x300.jpg"
+                  alt=""
+                />
+              </div>
+            </div>
+            <div class="item col-4 col-md-6 col-lg-2 p-1 p-md-2">
+              <div class="thumbnail wow animate__animated animate__zoomIn">
+                <img
+                  class="w-100"
+                  src="https://gswf.com/wp-content/uploads/2022/05/6.-Satin-Black-300x300.jpg"
+                  alt=""
+                />
+              </div>
+            </div>
+            <div class="item col-4 col-md-6 col-lg-2 p-1 p-md-2">
+              <div class="thumbnail wow animate__animated animate__zoomIn">
+                <img
+                  class="w-100"
+                  src="https://gswf.com/wp-content/uploads/2022/05/1.-Deep-Grey-Gloss-300x300.jpg"
+                  alt=""
+                />
+              </div>
+            </div>
+            <div class="item col-4 col-md-6 col-lg-2 p-1 p-md-2">
+              <div class="thumbnail wow animate__animated animate__zoomIn">
+                <img
+                  class="w-100"
+                  src="https://gswf.com/wp-content/uploads/2022/05/2.-Satin-Deep-Grey-300x300.jpg"
+                  alt=""
+                />
+              </div>
+            </div>
+            <div class="item col-4 col-md-6 col-lg-2 p-1 p-md-2">
+              <div class="thumbnail wow animate__animated animate__zoomIn">
+                <img
+                  class="w-100"
+                  src="https://gswf.com/wp-content/uploads/2022/05/3.-Light-Grey-Gloss-300x300.jpg"
+                  alt=""
+                />
+              </div>
+            </div>
+            <div class="item col-4 col-md-6 col-lg-2 p-1 p-md-2">
+              <div class="thumbnail wow animate__animated animate__zoomIn">
+                <img
+                  class="w-100"
+                  src="https://gswf.com/wp-content/uploads/2022/05/4.-Satin-Grey-300x300.jpg"
+                  alt=""
+                />
+              </div>
+            </div>
+            <div class="item col-4 col-md-6 col-lg-2 p-1 p-md-2">
+              <div class="thumbnail wow animate__animated animate__zoomIn">
+                <img
+                  class="w-100"
+                  src="https://gswf.com/wp-content/uploads/2022/05/7.-White-Gloss-300x300.jpg"
+                  alt=""
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="preview d-flex flex-wrap align-items-center p-6">
+          <div
+            class="item_left col-12 col-md-6 py-3 pt-md-0 text-center text-md-start"
+          >
+            <div class="thumbnail">
+              <img
+                src="https://gswf.com/wp-content/uploads/2021/06/3D-Changer.png"
+                class="w-100"
+                alt=""
+              />
+            </div>
+            <div class="detail ps-0 ps-md-5">
+              <p class="text-white fs-5">
+                To subscribe to 3D Changer and access GSWF Color Preview…
+              </p>
+              <a
+                class="nav-item fst-italic fw-900 bg-primary p-2 px-4 rounded-pill text-decoration-none text-white"
+                >CLICK HERE</a
+              >
+            </div>
+          </div>
+          <div class="item_right col-12 col-md-6">
+            <video
+              class="w-100 p-0"
+              height="600px"
+              src="https://gswf.com/wp-content/uploads/2021/06/GSWF_Touch_V2-B.mp4"
+              autoplay
+              loop
+              muted=""
+              controls
+            ></video>
+          </div>
+        </div>
+        <div class="border border-5 border-bottom border-primary"></div>
+      </div>
+      <!--------------------End Color-------------------->
+
+      <!----------------------------------------Protect---------------------------------------->
+      <div class="row m-0 protect pt-5">
+        <div class="item col-12 col-md-6 pt-5 p-6" style="z-index: 1">
+          <img
+            src="https://gswf.com/wp-content/uploads/2021/06/Logo-SMOKE.svg"
+            alt=""
+          />
+          <div class="percent d-flex justify-content-between pt-3">
+            <h3 class="text-white fw-900 fst-italic">30%</h3>
+            <h3 class="text-white fw-900 fst-italic">50%</h3>
+            <h3 class="text-white fw-900 fst-italic">70%</h3>
+          </div>
+          <p class="text-white fs-4 py-3">
+            TPU based headlight Protection Film Gives Head/Tail lights & Fog
+            Lights a Smoked Visual Look.
+          </p>
+          <ul class="list-unstyled d-flex flex-wrap flex-column">
+            <li
+              class="nav-link bg-danger rounded-pill mb-3 fw-900 fst-italic text-center col-6 col-md-6 col-lg-3"
+            >
+              <a
+                class="nav-item px-md-0 px-lg-3 text-decoration-none text-white"
+                >SHOP ONLINE</a
+              >
+            </li>
+            <li
+              class="nav-link bg-danger rounded-pill mb-3 fw-900 fst-italic text-center col-6 col-md-6 col-lg-3"
+            >
+              <a
+                class="nav-item px-md-0 px-lg-3 text-decoration-none text-white"
+                >SHOP ONLINE</a
+              >
+            </li>
+          </ul>
+        </div>
+        <div class="overlay_protect"></div>
+        <div
+          class="border-5 border-bottom border-primary"
+          style="z-index: 1"
+        ></div>
+      </div>
+      <!--------------------End Protect-------------------->
+
+      <!----------------------------------------Offer---------------------------------------->
+      <div class="row m-0 offer">
+        <div class="main d-flex flex-wrap align-items-center p-6">
+          <div class="item col-12 col-md-6"></div>
+          <div class="item col-12 col-md-6 text-white">
+            <ul class="list-unstyled d-flex flex-wrap flex-column">
+              <li
+                class="nav-link ms-0 ms-lg-4 bg-danger rounded-pill mb-3 fw-900 fst-italic text-center col-6 col-md-6 col-lg-3"
+              >
+                <a class="nav-item px-3 text-decoration-none text-white"
+                  >SHOP ONLINE</a
+                >
+              </li>
+              <li
+                class="nav-link ms-0 ms-lg-4 bg-danger rounded-pill mb-3 fw-900 fst-italic text-center col-6 col-md-6 col-lg-3"
+              >
+                <a class="nav-item px-3 text-decoration-none text-white"
+                  >SHOP ONLINE</a
+                >
+              </li>
+            </ul>
+            <img
+              src="https://gswf.com/wp-content/uploads/2021/06/SPF-70.svg"
+              class="w-100"
+              alt=""
+            />
+            <h3 class="fw-900 fst-italic py-3 ms-0 ms-lg-4">
+              SUNROOF PROTECTION
+            </h3>
+            <p class="ms-0 ms-lg-4">
+              A unique offering to keep cool and protected.
+            </p>
+          </div>
+        </div>
+      </div>
+      <!--------------------End Offer-------------------->
+
+      <!----------------------------------------Partner---------------------------------------->
+      <div class="row m-0 partner">
+        <div class="main p-6 d-flex flex-row">
+          <div class="info col-12 col-md-6">
+            <h2 class="text-primary fw-light fst-italic">
+              Partner resources and the perks of the
+              <b class="fw-900">fastest growing</b> PPF network.
+            </h2>
+            <ul class="list-unstyled d-flex flex-wrap py-3">
+              <li class="col-12 col-lg-6 fw-900 fst-italic">
+                <i class="text-primary fs-4 bi bi-check-lg"></i>
+                <span class="text-secondary">MARKETING MATERIALS</span>
+              </li>
+              <li class="col-12 col-lg-6 fw-900 fst-italic">
+                <i class="text-primary fs-4 bi bi-check-lg"></i>
+                <span class="text-secondary">KNOWLEDGABLE SUPPORT</span>
+              </li>
+              <li class="col-12 col-lg-6 fw-900 fst-italic">
+                <i class="text-primary fs-4 bi bi-check-lg"></i>
+                <span class="text-secondary">NEW CLIENT LEADS</span>
+              </li>
+              <li class="col-12 col-lg-6 fw-900 fst-italic">
+                <i class="text-primary fs-4 bi bi-check-lg"></i>
+                <span class="text-secondary">WHOLESALE DISCOUNT</span>
+              </li>
+            </ul>
+            <ul class="work list-unstyled d-flex flex-wrap flex-row">
+              <li
+                class="nav-link bg-primary rounded-pill text-center mb-3 me-3 fw-900 fst-italic text-center col-6 col-lg-3"
+              >
+                <a class="nav-item px-0 px-md-2 text-decoration-none text-white"
+                  >BECOME A PARTNER</a
+                >
+              </li>
+              <li
+                class="nav-link bg-danger rounded-pill text-center mb-3 me-3 fw-900 fst-italic text-center col-6 col-lg-3"
+              >
+                <a class="nav-item px-0 px-md-2 text-decoration-none text-white"
+                  >UPLOAD YOUR WORK</a
+                >
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <!--------------------End Partner-------------------->
+
+      <!----------------------------------------Certificate---------------------------------------->
+      <div class="row m-0 certificate position-relative pt-5">
+        <div
+          class="rank p-6 text-center d-flex flex-row justify-content-center align-items-center"
+          style="z-index: 1"
+        >
+          <div class="silver">
+            <img
+              src="https://gswf.com/wp-content/uploads/2021/06/Silver-Patch-2.png"
+              alt=""
+            />
+          </div>
+          <div class="gold mx-4">
+            <img
+              src="https://gswf.com/wp-content/uploads/2021/06/Gold-Patch-2.png"
+              alt=""
+            />
+          </div>
+          <div class="bronze">
+            <img
+              src="https://gswf.com/wp-content/uploads/2021/06/Bronze-Patch-2.png"
+              alt=""
+            />
+          </div>
+        </div>
+        <div
+          class="contact p-6 text-center d-flex flex-column align-items-center"
+          style="z-index: 1"
+        >
+          <h3 class="text-white fst-italic fw-900">Training & Certification</h3>
+          <p class="text-white py-3">
+            Interested in our rigorous certification process? Sign up below to
+            be first in the know about our next available sessions.
+          </p>
+          <div class="col-12 col-md-6 col-lg-3 mb-3">
+            <input
+              type="text"
+              class="form-control rounded-pill p-3"
+              placeholder="Name"
+            />
+          </div>
+          <div class="col-12 col-md-6 col-lg-3 mb-3">
+            <input
+              type="text"
+              class="form-control rounded-pill p-3"
+              placeholder="Email"
+            />
+          </div>
+          <div class="col-12 col-md-6 col-lg-3 bg-primary rounded-pill p-3">
+            <a
+              class="nav-item fst-italic text-decoration-none fw-900 text-white"
+              >SUBSCRIBE</a
+            >
+          </div>
+        </div>
+        <div class="overlay_certificate"></div>
+      </div>
+      <!--------------------End Certificate-------------------->
+
+      <!----------------------------------------Tip Video---------------------------------------->
+      <div class="row m-0 tip bg-dark shadow py-5">
+        <div class="main p-6">
+          <h2 class="fw-900 text-primary text-center fst-italic pt-5">
+            TIPS & TRICKS
+          </h2>
+          <div class="play-list d-flex flex-row flex-wrap flex-md-nowrap p-7">
+            <div class="main-video col-12 col-md-8">
+              <video
+                src="https://cdn.bfldr.com/JGPLZ3XL/at/27b3m52q99tjxpq338vqstq/How_to_install_mirror_GSWF.mp4"
+                autoplay
+                muted
+                loop
+                controls
+                class="main-video"
+              ></video>
+            </div>
+            <div class="video-list col-12 col-md-4">
+              <div class="list active">
+                <video
+                  src="https://cdn.bfldr.com/JGPLZ3XL/at/27b3m52q99tjxpq338vqstq/How_to_install_mirror_GSWF.mp4"
+                  class="d-none list-video"
+                ></video>
+                <img
+                  src="https://videogif.bfldr.com/QOn2FidaZZYjD00hKJsxfDehIZayQBLhF/animated.gif"
+                  width="75px"
+                  height="42px"
+                />
+                <h3 class="list-title fw-900 fst-italic">
+                  HOW TO INSTALL PPF ON A MIRROR
+                </h3>
+              </div>
+
+              <div class="list">
+                <video
+                  src="https://cdn.bfldr.com/JGPLZ3XL/at/vm8mh7924bqzgr96n65b5k/PPF_Test_Eng.mp4"
+                  class="d-none list-video"
+                ></video>
+                <img
+                  src="https://videogif.bfldr.com/RSjDbU3ofoMEp0129VM4rbbAvOUZWQ601C/animated.gif"
+                  width="75px"
+                  height="42px"
+                  alt=""
+                />
+                <h3 class="list-title fw-900 fst-italic">
+                  PPF BRAND COMPARISON
+                </h3>
+              </div>
+
+              <div class="list">
+                <video
+                  src="https://cdn.bfldr.com/JGPLZ3XL/at/44sk3qvkq3q9f7sbnkqwggw/How_to_remove_PPF_correctly.mp4"
+                  class="d-none list-video"
+                ></video>
+                <img
+                  src="https://videogif.bfldr.com/wPrBBhVHZY1k01xyvQ2wG42CwZeWq3Koq/animated.gif"
+                  width="75px"
+                  height="42px"
+                  alt=""
+                />
+                <h3 class="list-title fw-900 fst-italic">
+                  HOW TO PROPERLY REMOVE PPF
+                </h3>
+              </div>
+
+              <div class="list">
+                <video
+                  src="https://cdn.bfldr.com/JGPLZ3XL/at/pf8w3vtfbnhrgsx9f4434m3/How_to_install_bumper_using_templates.mp4"
+                  class="d-none list-video"
+                ></video>
+                <img
+                  src="https://videogif.bfldr.com/p7gQNvVOtYo7ivUYsKGuiCVMe98G3Jfb/animated.gif"
+                  width="75px"
+                  height="42px"
+                  alt=""
+                />
+                <h3 class="list-title fw-900 fst-italic">
+                  INSTALL BUMPER USING TEMPLATES
+                </h3>
+              </div>
+
+              <div class="list">
+                <video
+                  src="https://cdn.bfldr.com/JGPLZ3XL/at/sr6k4w9bb4w67t9h467q42h/How_to_do_templates_GSWF.mp4"
+                  class="d-none list-video"
+                ></video>
+                <img
+                  src="https://videogif.bfldr.com/G8PZt02Jh4tKU8vulA2YjeFn7eXSSRDzd/animated.gif"
+                  width="75px"
+                  height="42px"
+                  alt=""
+                />
+                <h3 class="list-title fw-900 fst-italic">
+                  DIY SMALL TEMPLATES
+                </h3>
+              </div>
+
+              <div class="list">
+                <video
+                  src="https://cdn.bfldr.com/JGPLZ3XL/at/58hp8hcwftnfkxqwnfc4fwz/GSWF_TIPS_AND_TRICKS_x_WRAPVIRUS_03.mp4"
+                  class="d-none list-video"
+                ></video>
+                <img
+                  src="https://videogif.bfldr.com/76Jc0001CdnFrIXvnjJmKhDv5zJSokAKPl/animated.gif"
+                  width="75px"
+                  height="42px"
+                  alt=""
+                />
+                <h3 class="list-title fw-900 fst-italic">CHROMA GUARD TIPS</h3>
+              </div>
+
+              <div class="list">
+                <video
+                  src="https://cdn.bfldr.com/JGPLZ3XL/at/g7fk59mx6gp356bc2sttn9qx/GSWF_TIPS_AND_TRICKS_x_WRAPVIRUS_02.mp4"
+                  class="d-none list-video"
+                ></video>
+                <img
+                  src="https://videogif.bfldr.com/Hb4R4JQ1GeJbVZQO01VSJoCqZHPS02c9YB/animated.gif"
+                  width="75px"
+                  height="42px"
+                  alt=""
+                />
+                <h3 class="list-title fw-900 fst-italic">SMOKE INSTALLATION</h3>
+              </div>
+
+              <div class="list">
+                <video
+                  src="https://cdn.bfldr.com/JGPLZ3XL/at/mh4wms95msr6fss5hrh43hb/GSWF_TIPS_AND_TRICKS_x_WRAPVIRUS_01.mp4"
+                  class="d-none list-video"
+                ></video>
+                <img
+                  src="https://videogif.bfldr.com/3eD01iVSU01PTREwpouuhRprjincqgg0118/animated.gif"
+                  width="75px"
+                  height="42px"
+                  alt=""
+                />
+                <h3 class="list-title fw-900 fst-italic">
+                  GLOSS BLACK INSTALLATION
+                </h3>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!--------------------End Tip Video-------------------->
+
+      <!----------------------------------------Picture---------------------------------------->
+      <div class="row m-0 picture bg-dark pt-5">
+        <div class="title p-6 text-center pt-5">
+          <a
+            href="https://www.instagram.com/gswf.global"
+            target="_blank"
+            class="text-decoration-none fst-italic text-white fw-900"
+          >
+            <i class="bi bi-instagram"></i> GSWF.GLOBAL
+          </a>
+        </div>
+        <div class="item d-flex flex-wrap justify-content-center">
+          <div class="pic p-1 col-12 col-md-6 col-lg-2">
+            <img
+              class="w-100"
+              src="https://gswf.com/wp-content/uploads/sb-instagram-feed-images/340985814_732105648608266_2895640729647032324_nfull.jpg"
+              alt=""
+            />
+          </div>
+          <div class="pic p-1 col-12 col-md-6 col-lg-2">
+            <img
+              class="w-100"
+              src="https://gswf.com/wp-content/uploads/sb-instagram-feed-images/341014685_743699807458560_6310643153219053005_nfull.jpg"
+              alt=""
+            />
+          </div>
+          <div class="pic p-1 col-12 col-md-6 col-lg-2">
+            <img
+              class="w-100"
+              src="https://gswf.com/wp-content/uploads/sb-instagram-feed-images/341017153_773213474260538_8116155371693638216_nfull.jpg"
+              alt=""
+            />
+          </div>
+          <div class="pic p-1 col-12 col-md-6 col-lg-2">
+            <img
+              class="w-100"
+              src="https://gswf.com/wp-content/uploads/sb-instagram-feed-images/340807834_766746941564290_511911098254908373_nfull.jpg"
+              alt=""
+            />
+          </div>
+          <div class="pic p-1 col-12 col-md-6 col-lg-2">
+            <img
+              class="w-100"
+              src="https://gswf.com/wp-content/uploads/sb-instagram-feed-images/341135994_660759432523562_3930430897389414313_nfull.jpg"
+              alt=""
+            />
+          </div>
+        </div>
+        <div class="border-5 border-bottom border-primary pt-3"></div>
+      </div>
+      <!--------------------End Picture-------------------->
+    </main>
+    <footer class="bg-dark">
+      <div
+        class="row m-0 footer py-5 align-items-center justify-content-center"
+      >
+        <div class="footer_top d-flex flex-wrap p-7 pt-5">
+          <div class="col-6 col-md-2 text-white">
+            <p class="text-danger">COMING SOON</p>
+            <h4 class="fst-italic">GET STARTED</h4>
+            <ul class="list-unstyled">
+              <li class="mb-1">
+                <a href="" class="text-decoration-none text-white fw-light"
+                  >Resources</a
+                >
+              </li>
+              <li class="mb-1">
+                <a href="" class="text-decoration-none text-white fw-light"
+                  >Tutorials</a
+                >
+              </li>
+              <li class="mb-1">
+                <a href="" class="text-decoration-none text-white fw-light"
+                  >Examples</a
+                >
+              </li>
+              <li class="mb-1">
+                <a href="" class="text-decoration-none text-white fw-light"
+                  >Docs</a
+                >
+              </li>
+            </ul>
+          </div>
+          <div class="col-6 col-md-2 text-white">
+            <p class="text-danger">COMING SOON</p>
+            <h4 class="fst-italic">ABOUT</h4>
+            <ul class="list-unstyled">
+              <li class="mb-1">
+                <a href="" class="text-decoration-none text-white fw-light"
+                  >Stories</a
+                >
+              </li>
+              <li class="mb-1">
+                <a href="" class="text-decoration-none text-white fw-light"
+                  >Community</a
+                >
+              </li>
+              <li class="mb-1">
+                <a href="" class="text-decoration-none text-white fw-light"
+                  >Blog</a
+                >
+              </li>
+              <li class="mb-1">
+                <a href="" class="text-decoration-none text-white fw-light"
+                  >Brand Assets</a
+                >
+              </li>
+            </ul>
+          </div>
+          <div class="col-6 col-md-2 text-white">
+            <p class="text-danger">COMING SOON</p>
+            <h4 class="fst-italic">PRODUCTS</h4>
+            <ul class="list-unstyled">
+              <li class="mb-1">
+                <a href="" class="text-decoration-none text-white fw-light"
+                  >Overview</a
+                >
+              </li>
+              <li class="mb-1">
+                <a href="" class="text-decoration-none text-white fw-light"
+                  >R&D</a
+                >
+              </li>
+              <li class="mb-1">
+                <a href="" class="text-decoration-none text-white fw-light"
+                  >Specs</a
+                >
+              </li>
+              <li class="mb-1">
+                <a href="" class="text-decoration-none text-white fw-light"
+                  >Upcoming</a
+                >
+              </li>
+            </ul>
+          </div>
+          <div class="col-6 col-md-2 text-white">
+            <p class="text-danger">ACTIVE</p>
+            <h4 class="fst-italic">FOLLOW US</h4>
+            <ul class="list-unstyled">
+              <li class="mb-1">
+                <i class="bi bi-instagram"></i>
+                <a href="" class="text-decoration-none text-white fw-light"
+                  >Instagram</a
+                >
+              </li>
+              <li class="mb-1">
+                <i class="bi bi-facebook"></i>
+                <a href="" class="text-decoration-none text-white fw-light"
+                  >Facebook</a
+                >
+              </li>
+              <li class="mb-1">
+                <i class="bi bi-youtube"></i>
+                <a href="" class="text-decoration-none text-white fw-light"
+                  >Youtube</a
+                >
+              </li>
+              <li class="mb-1">
+                <i class="bi bi-tiktok"></i>
+                <a href="" class="text-decoration-none text-white fw-light"
+                  >Tiktok</a
+                >
+              </li>
+            </ul>
+          </div>
+          <div class="col-12 col-md-4 py-4 py-md-0 d-flex flex-wrap">
+            <div class="col-12 col-md-6 mb-2 pe-2">
+              <input
+                type="text"
+                class="form-control rounded-pill p-3"
+                placeholder="First Name"
+              />
+            </div>
+            <div class="col-12 col-md-6 mb-2">
+              <input
+                type="text"
+                class="form-control rounded-pill p-3"
+                placeholder="Last Name"
+              />
+            </div>
+            <div class="col-12 mb-2">
+              <input
+                type="text"
+                class="form-control rounded-pill p-3"
+                placeholder="Email"
+              />
+            </div>
+            <div class="col-12 text-center bg-primary rounded-pill p-3">
+              <a
+                class="nav-item fst-italic text-decoration-none fw-900 text-white"
+                >SUBSCRIBE</a
+              >
+            </div>
+          </div>
+        </div>
+        <div class="w-75 border-1 border-bottom border-secondary py-3"></div>
+        <div
+          class="footer_bottom py-5 p-7 d-flex flex-column flex-md-row text-center text-md-start justify-content-between"
+        >
+          <a href="" class="py-4 py-md-0">
+            <img
+              src="https://gswf.com/wp-content/uploads/2020/02/GSWF-WHITE-Logo.svg"
+              width="120px"
+              height="32px"
+              alt=""
+            />
+          </a>
+          <p class="text-white">Copyright 2023 © GSWF. All rights reserved.</p>
+        </div>
+      </div>
+    </footer>
+    <!-- Bootstrap JavaScript Libraries -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
+      integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+      crossorigin="anonymous"
+    ></script>
+
+    <script>
+      wow = new WOW({
+        boxClass: "wow",
+        animateClass: "animated",
+        offset: 0,
+        mobile: true,
+        live: true,
+      });
+      wow.init();
+    </script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js"></script>
+    <script src="public/js/jquery.js"></script>
+    <script>
+      var fixmeTop = $(".fixme").offset().top;
+      $(window).scroll(function () {
+        var currentScroll = $(window).scrollTop();
+        if (currentScroll >= fixmeTop) {
+          $(".fixme").css({
+            position: "fixed",
+            top: "0",
+            left: "0",
+            transition: "0.6s",
+          });
+        } else {
+          $(".fixme").css({
+            position: "static",
+          });
+        }
+      });
+    </script>
+    <script>
+      var box = document.getElementById("nav-box");
+      window.onscroll = function () {
+        if (
+          document.documentElement.scrollTop > box.getBoundingClientRect().top
+        ) {
+          box.style.backgroundColor = "#0074E8";
+        } else {
+          box.style.backgroundColor = "inherit";
+        }
+      };
+    </script>
+    <script src="public/js/playlist.js"></script>
+  </body>
+</html>
